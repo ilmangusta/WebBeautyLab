@@ -1,0 +1,131 @@
+
+
+body{
+    background-size: cover;
+    background-color: #fff1f0;
+    background-color: #fff1f0;
+    font-family: cursive;
+    text-decoration: solid;
+    font-size: 20px;
+}
+
+
+button{
+    color: black;
+    background-color: #e6c5c1;
+    font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+body .row1 {
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+
+
+.container{
+    display: flex;
+}
+
+
+
+li {
+    display: inline-block;
+}
+
+body .label{
+    text-align: center;
+}
+
+.divsiti{
+    text-align: center;
+}
+
+ 
+/* -----------------Menu nella versione mobile-----------------*/
+
+.active{
+	color:#FFFFFF/* primary super-lightcolor*/;
+	background-color: #B3453E/* primary lightcolor*/;
+}
+	
+.active-dropdown{
+	color:#FFFFFF /* primary super-lightcolor*/;
+	background-color:#B3453E/* primary lightcolor*/;
+}
+
+nav{
+	height:100%;
+	background-color:#A24038;/* primary lightcolor* /* sfondo menu mobile*/
+	position:fixed;
+	width:100%;
+	margin-top:54px;
+	visibility:hidden;
+	overflow:auto;/* permette lo scroll quando il menu è aperto*/	   
+}
+
+nav ul{
+	padding-bottom:54px;
+}
+
+nav ul li a {
+	padding: 16px 0 16px 32px;
+	display:block;
+	color:#fbfafa;
+	font-size:16px;
+	transition: background-color 0.3s ease;
+}
+
+.submenu{
+	color:#FF6759 /* primary super-lightcolor*/;
+	padding-left: 55px;
+	padding-bottom: 5px;
+}
+
+nav ul li ul {
+	padding-left:0; 
+	padding-bottom:0;
+}
+
+nav ul li ul li a {
+	font-size:16px;
+	padding:10px 0 10px 55px;
+	border:hidden; 
+}
+
+.lingua{
+	border-top: 1px solid #B3453E/* primary lightcolor*/; 
+}
+
+.lingua a::before{
+	content: url(img/earth-globe.svg);
+	margin-right: 5px;
+}
+
+/* ----------------- div bar per l'attivazione del menu ------------------ */
+
+#bar{
+	background-color: #A24038 /* primary color*/; 
+	height:54px;
+	width:100%;
+	z-index:2;
+	position:fixed;
+	box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.4);
+}
+
+#bar #logo{
+	float:right;
+	margin-right:12px;
+}
+
+
+
+
+
+

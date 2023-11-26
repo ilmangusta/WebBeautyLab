@@ -7,6 +7,7 @@ body{
     font-family: cursive;
     text-decoration: solid;
     font-size: 24px;
+    text-align: center;
 }
 
 
@@ -24,11 +25,6 @@ button{
 
 
 
-
-
-body .label{
-    text-align: center;
-}
 
 
 

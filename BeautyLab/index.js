@@ -8,6 +8,16 @@ function ready() {
     },
     true
   );
+
+  var logo = document.querySelector(".logo");
+  logo.addEventListener(
+    "click",
+    () => {
+      const newUrl = "https://beautylabvalentina.netlify.app";
+      window.location.replace(newUrl);
+    },
+    true
+  );
 }
 
 ready();

@@ -92,7 +92,7 @@ button {
 
 body {
   font-family: sans-serif;
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .navbar {
@@ -107,11 +107,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 40px;
 }
 
 .logo img {
-  width: 100px;
+  width: 120px;
 }
 
 .title h2 {
@@ -121,10 +121,12 @@ body {
 .titlelinks {
   display: flex;
   align-items: center;
+  gap: 30px;
 }
 
 .linknavbar {
   display: flex;
+  flex-flow: column;
   padding-left: 0px;
   gap: 20px;
 }
@@ -139,34 +141,36 @@ body {
 .copertina {
   padding-top: 50px;
   display: flex;
-  max-height: 550px;
-  max-width: 100%;
 }
 
 .copertina img {
-  width: 300px;
+  max-width: 100%;
   object-fit: cover;
 }
 
 .capitolo2 {
   font-family: "DM Sans", sans-serif;
+  display: flex;
+  flex-flow: row;
 }
 .blocco2 {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   gap: 30px;
 }
 
 .blocco2 img {
-  width: 300px;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .blocco3 {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   gap: 30px;
 }
 
 .blocco3 img {
-  width: 300px;
+  max-width: 100%;
+  object-fit: cover;
 }

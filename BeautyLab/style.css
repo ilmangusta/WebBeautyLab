@@ -158,6 +158,8 @@ button {
   body {
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
+    border-radius: 36px;
+    border: 10px solid black;
   }
 
   .tendina {

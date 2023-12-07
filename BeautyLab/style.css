@@ -312,6 +312,7 @@ button {
 
   .facebook img {
     width: 60px;
+    object-fit: contain;
     border-radius: 16px;
   }
 
@@ -328,6 +329,8 @@ button {
 
   .ig img {
     width: 60px;
+    object-fit: contain;
+
     border-radius: 16px;
   }
 
@@ -344,6 +347,7 @@ button {
 
   .whatsapp img {
     width: 60px;
+    object-fit: contain;
     border-radius: 16px;
   }
 

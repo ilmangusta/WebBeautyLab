@@ -131,9 +131,6 @@ button {
     object-fit: cover;
   }
 
-  .capitolo2 {
-    font-family: "DM Sans", sans-serif;
-  }
   .blocco2 {
     display: flex;
     flex-flow: row;
@@ -159,7 +156,7 @@ button {
 
 @media (max-width: 600px) {
   body {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-size: 22px;
   }
 
@@ -190,7 +187,7 @@ button {
     right: 0;
     padding-top: 60px;
     padding-right: 20px;
-    transition: 1.5s;
+    transition: 1.2s;
     transform: translateX(+100%);
   }
 
@@ -291,5 +288,53 @@ button {
   .blocco3 img {
     max-width: 100%;
     object-fit: cover;
+  }
+
+  .facebook {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+  }
+
+  .facebook img {
+    width: 50px;
+    border-radius: 16px;
+  }
+
+  .facebook p {
+    font-size: 20px;
+    align-items: center;
+  }
+
+  .ig {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+  }
+
+  .ig img {
+    width: 60px;
+    border-radius: 16px;
+  }
+
+  .ig p {
+    font-size: 20px;
+    align-items: center;
+  }
+
+  .whatsapp {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+  }
+
+  .whatsapp img {
+    width: 60px;
+    border-radius: 16px;
+  }
+
+  .whatsapp p {
+    font-size: 20px;
+    align-items: center;
   }
 }

@@ -331,11 +331,18 @@
     transition: 1s;
     transform: translateX(+100%);
     background-color: white;
-    border-radius: 26px;
+    justify-content: center;
+  }
+
+  .menu img {
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
   }
 
   .wide {
-    transform: translateX(+0%);
+    transform: translateX(+3%);
   }
 
   .menu ul {

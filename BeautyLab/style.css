@@ -5,7 +5,7 @@
 
   body {
     height: 100dvh;
-    font-family: "Montserrat", sans-serif;
+    font-family: corsivo;
     font-size: 18px;
     background-color: black;
     overflow-y: hidden;
@@ -15,7 +15,8 @@
     height: 98%;
     overflow: auto;
     border-radius: 12px;
-    background-color: white;
+    background-color: #fcf1ef;
+
     z-index: 10;
     padding-top: 10px;
   }
@@ -30,6 +31,7 @@
     cursor: pointer;
     z-index: 2;
     border-radius: 10px;
+    z-index: 6;
   }
 
   .icon-menu1 {
@@ -71,6 +73,7 @@
     transition: 1s;
     transform: translateX(+100%);
     overflow: hidden;
+    z-index: 5;
   }
 
   .wide {
@@ -104,9 +107,19 @@
     color: white;
   }
 
+  .motto p {
+    font-family: cursive;
+  }
+
   .navbar {
     display: flex;
     flex-flow: row;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fcf1ef;
+    width: 100%;
   }
 
   .logo {
@@ -132,8 +145,6 @@
 
   .title {
     display: flex;
-    justify-content: end;
-    align-items: end;
   }
 
   .motto {
@@ -152,7 +163,7 @@
     flex-flow: column;
     align-items: center;
     gap: 40px;
-    background-color: white;
+    background-color: #fcf1ef;
   }
 
   .maincontainersocial {
@@ -166,7 +177,7 @@
     padding: 10px;
   }
 
-  .maincontainersocial a {
+  .maincontainer a {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     color: black;
@@ -183,11 +194,6 @@
   .copertina img {
     width: 1900px;
     object-fit: cover;
-  }
-
-  .capitolo2 {
-    display: flex;
-    flex-flow: row;
   }
 
   .blocco2 {
@@ -219,7 +225,7 @@
   }
 
   .capitolo4 {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: center;

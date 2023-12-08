@@ -17,6 +17,7 @@
     border-radius: 12px;
     background-color: white;
     z-index: 10;
+    padding-top: 10px;
   }
 
   .tendina {
@@ -31,11 +32,7 @@
     border-radius: 10px;
   }
 
-  .tendina:hover {
-    background: #f5f5f5;
-  }
-
-  .icon-menu {
+  .icon-menu1 {
     display: block;
     height: 3px;
     width: 20px;
@@ -43,10 +40,29 @@
     margin-bottom: 3px;
     border-radius: 8px;
   }
+
+  .icon-menu2 {
+    display: block;
+    height: 3px;
+    width: 20px;
+    background: black;
+    margin-bottom: 3px;
+    border-radius: 8px;
+  }
+
+  .icon-menu3 {
+    display: block;
+    height: 3px;
+    width: 20px;
+    background: black;
+    margin-bottom: 3px;
+    border-radius: 8px;
+  }
+
   .menu {
-    height: 94%;
+    height: 100%;
     width: 100%;
-    background: white;
+    background: black;
     position: fixed;
     top: 0;
     right: 0;
@@ -54,12 +70,14 @@
     padding-right: 20px;
     transition: 1s;
     transform: translateX(+100%);
-    margin-top: 8px;
-    margin-bottom: 1px;
   }
 
   .wide {
     transform: translateX(+80%);
+  }
+
+  .changecolorbutton {
+    background: white;
   }
 
   .menu ul {
@@ -69,7 +87,7 @@
   .menu li {
     padding: 10px;
     font-size: 25px;
-    color: black;
+    color: white;
   }
 
   .menu img {
@@ -79,7 +97,7 @@
 
   a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
 
   .navbar {
@@ -331,7 +349,7 @@
     cursor: pointer;
     z-index: 2;
   }
-  .icon-menu {
+  .icon-menu1 {
     display: block;
     height: 3px;
     width: 20px;
@@ -339,6 +357,29 @@
     margin-bottom: 3px;
     border-radius: 8px;
   }
+
+  .icon-menu2 {
+    display: block;
+    height: 3px;
+    width: 20px;
+    background: black;
+    margin-bottom: 3px;
+    border-radius: 8px;
+  }
+
+  .icon-menu3 {
+    display: block;
+    height: 3px;
+    width: 20px;
+    background: black;
+    margin-bottom: 3px;
+    border-radius: 8px;
+  }
+
+  .changecolorbutton {
+    background: white;
+  }
+
   .menu {
     height: 100%;
     width: 100%;
@@ -350,7 +391,7 @@
     padding-right: 20px;
     transition: 1s;
     transform: translateX(+100%);
-    background-color: white;
+    background-color: black;
     justify-content: center;
   }
 
@@ -377,7 +418,7 @@
 
   a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   .navbar {
     display: flex;

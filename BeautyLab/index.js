@@ -1,10 +1,17 @@
 function ready() {
   var tendina = document.querySelector(".tendina");
+  var icon1 = document.querySelector(".icon-menu1");
+  var icon2 = document.querySelector(".icon-menu2");
+  var icon3 = document.querySelector(".icon-menu3");
+
   tendina.addEventListener(
     "click",
     () => {
       var menu = document.querySelector(".menu");
       menu.classList.toggle("wide");
+      icon1.classList.toggle("changecolorbutton");
+      icon2.classList.toggle("changecolorbutton");
+      icon3.classList.toggle("changecolorbutton");
     },
     true
   );

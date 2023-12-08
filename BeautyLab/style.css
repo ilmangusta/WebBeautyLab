@@ -90,6 +90,7 @@
   .logo {
     display: flex;
     padding-left: 30px;
+    cursor: pointer;
   }
 
   .logo img {
@@ -521,30 +522,27 @@
 
   .subscribe-input {
     display: flex;
-    flex-flow: column;
     justify-content: center;
-    align-items: center;
     padding: 20px;
-    width: 90%;
-    gap: 10px;
   }
 
   .field {
-    height: 35px;
-    font-size: 12px;
+    height: 40px;
     background-color: black;
     color: white;
     border: 1px solid white;
     text-align: center;
     border-radius: 0px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .btn-subscribe {
-    height: 25px;
     background-color: black;
     color: white;
     border: 1px solid white;
-    text-align: center;
   }
 
   .facebook {

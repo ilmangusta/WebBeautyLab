@@ -499,10 +499,11 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    width: 90%;
+    gap: 10px;
   }
 
   .field {
-    width: 200px;
     height: 35px;
     font-size: 12px;
     background-color: black;
@@ -513,7 +514,6 @@
   }
 
   .btn-subscribe {
-    width: 206px;
     height: 25px;
     background-color: black;
     color: white;

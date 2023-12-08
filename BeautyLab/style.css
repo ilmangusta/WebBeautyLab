@@ -62,7 +62,7 @@
   .menu {
     height: 100%;
     width: 100%;
-    background: black;
+    background: rgb(46, 46, 46);
     position: fixed;
     top: 0;
     right: 0;

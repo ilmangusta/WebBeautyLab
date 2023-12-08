@@ -70,6 +70,7 @@
     padding-right: 20px;
     transition: 1s;
     transform: translateX(+100%);
+    overflow: hidden;
   }
 
   .wide {
@@ -91,8 +92,11 @@
   }
 
   .menu img {
-    width: 20%;
+    margin: 10px;
+    width: 16%;
+    padding-left: 10px;
     margin-top: 50px;
+    filter: invert(1);
   }
 
   a {
@@ -396,10 +400,11 @@
   }
 
   .menu img {
-    padding: 60px;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
+    margin: 10px;
+    width: 85%;
+    padding: 10px;
+    margin-top: 40px;
+    filter: invert(1);
   }
 
   .wide {

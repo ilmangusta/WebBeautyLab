@@ -155,11 +155,10 @@
   }
 
   .container {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
     height: 95%;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
+    border-radius: 16px;
   }
 
   .tendina {
@@ -222,6 +221,7 @@
     font-size: 15px;
     background-color: white;
     padding-left: 15px;
+    border-top: 16px;
   }
 
   .logo {
@@ -258,6 +258,7 @@
     align-items: center;
     gap: 10px;
     background-color: white;
+    border-bottom: 16px;
   }
 
   .copertina {

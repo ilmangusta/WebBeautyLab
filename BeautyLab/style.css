@@ -501,22 +501,21 @@
   }
 
   .field {
-    height: 50px;
-    width: 154px;
+    width: 100%;
     font-size: 12px;
     background-color: black;
     color: white;
     border: 1px solid white;
     text-align: center;
+    border-radius: 0px;
   }
 
   .btn-subscribe {
-    height: 35px;
-    width: 160px;
+    width: 100%;
     background-color: black;
     color: white;
     border: 1px solid white;
-    padding: 4px;
+    text-align: center;
   }
 
   .facebook {

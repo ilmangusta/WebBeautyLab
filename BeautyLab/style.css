@@ -665,6 +665,7 @@
     background-color: black;
     color: white;
     border: 1px solid white;
+    padding: 10px;
   }
 
   .facebook {
@@ -679,8 +680,8 @@
     border-radius: 16px;
   }
 
-  .facebook p {
-    font-size: 18px;
+  .facebook div {
+    display: flex;
     align-items: center;
   }
 
@@ -697,8 +698,8 @@
     border-radius: 16px;
   }
 
-  .ig p {
-    font-size: 20px;
+  .ig div {
+    display: flex;
     align-items: center;
   }
 
@@ -714,8 +715,8 @@
     border-radius: 16px;
   }
 
-  .whatsapp p {
-    font-size: 20px;
+  .whatsapp div {
+    display: flex;
     align-items: center;
   }
 

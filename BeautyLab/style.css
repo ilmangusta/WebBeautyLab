@@ -339,8 +339,7 @@
 @media (max-width: 600px) {
   body {
     height: 100dvh;
-    border-color: #847b6e;
-    font-family: "Montserrat", sans-serif;
+    font-family: corsivo;
     font-size: 22px;
     background-color: black;
     overflow: hidden;
@@ -418,6 +417,10 @@
     padding: 10px;
     margin-top: 40px;
     filter: invert(1);
+  }
+
+  .motto p {
+    font-family: cursive;
   }
 
   .wide {
@@ -517,21 +520,18 @@
   }
 
   .capitolo1 {
-    font-family: "DM Sans", sans-serif;
     display: flex;
     flex-flow: row;
     padding: 10px;
   }
 
   .paragrafo2 {
-    font-family: "DM Sans", sans-serif;
     display: flex;
     flex-flow: column;
     padding: 10px;
   }
 
   .capitolo3 {
-    font-family: "DM Sans", sans-serif;
     display: flex;
     flex-flow: row;
     padding-bottom: 20px;

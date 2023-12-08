@@ -499,14 +499,12 @@
     width: 120px;
   }
 
-  .title h2 {
-    align-items: start;
-  }
-
-  .titlelinks {
-    display: flex;
+  .titlemotto h3 {
     align-items: center;
-    gap: 30px;
+    font-size: 24px;
+  }
+  .titlemotto .motto {
+    font-size: 16px;
   }
 
   .linknavbar {
@@ -537,7 +535,7 @@
   .servizio1 {
     display: flex;
     flex-flow: column;
-    width: 200px;
+    width: 320px;
     height: 200px;
     overflow-x: scroll;
   }
@@ -719,8 +717,20 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    padding-top: 25px;
+    gap: 10px;
   }
   .aboutme div {
-    padding: 0px;
+    padding: 20px;
+  }
+
+  .social {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .boxsocial {
+    padding-top: 30px;
+    gap: 20px;
   }
 }

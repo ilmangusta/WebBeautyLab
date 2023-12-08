@@ -144,22 +144,22 @@
 
 @media (max-width: 600px) {
   body {
+    height: 100dvh;
+    border-color: #847b6e;
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     background-color: black;
-    border-radius: 36px;
     border: 5px solid black;
     padding: 6px;
-    overflow-y: auto;
+    overflow: hidden;
   }
 
   .container {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 95%;
     overflow-y: scroll;
-    display: block;
+    overflow-x: hidden;
   }
 
   .tendina {
@@ -174,10 +174,10 @@
   }
   .icon-menu {
     display: block;
-    height: 4px;
+    height: 3px;
     width: 20px;
     background: black;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     border-radius: 8px;
   }
   .menu {
@@ -221,7 +221,6 @@
     width: 100%;
     font-size: 15px;
     background-color: white;
-    border-top-left-radius: 20px;
     padding-left: 15px;
   }
 
@@ -259,7 +258,6 @@
     align-items: center;
     gap: 10px;
     background-color: white;
-    border-bottom-left-radius: 18px;
   }
 
   .copertina {

@@ -54,6 +54,8 @@
     padding-right: 20px;
     transition: 1s;
     transform: translateX(+100%);
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 10px;
   }
 
   .wide {
@@ -68,6 +70,11 @@
     padding: 10px;
     font-size: 25px;
     color: black;
+  }
+
+  .menu img {
+    width: 20%;
+    margin-top: 50px;
   }
 
   a {
@@ -123,6 +130,17 @@
     align-items: center;
     gap: 40px;
     background-color: white;
+  }
+
+  .maincontainersocial {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 10px;
   }
 
   .copertina {
@@ -299,6 +317,7 @@
     border-radius: 16px;
     margin-top: 10px;
     margin-bottom: 65px;
+    background-color: white;
   }
 
   .tendina {

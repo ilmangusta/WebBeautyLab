@@ -512,10 +512,11 @@
   .copertina {
     padding-top: 10px;
     display: flex;
+    width: 100vw;
   }
 
   .copertina img {
-    max-width: 100%;
+    width: 100vw;
     object-fit: cover;
   }
 

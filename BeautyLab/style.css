@@ -428,7 +428,7 @@
     color: black;
   }
 
-  a {
+  .menu a {
     text-decoration: none;
     color: white;
   }
@@ -491,6 +491,13 @@
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     padding: 10px;
+  }
+
+  .maincontainersocial a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
   }
 
   .copertina {

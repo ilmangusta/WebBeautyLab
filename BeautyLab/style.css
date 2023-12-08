@@ -262,6 +262,17 @@
     border-bottom-right-radius: 16px;
   }
 
+  .maincontainersocial {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 10px;
+  }
+
   .copertina {
     padding-top: 10px;
     display: flex;

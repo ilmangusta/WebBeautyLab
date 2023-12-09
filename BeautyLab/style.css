@@ -450,6 +450,10 @@
     filter: invert(1);
   }
 
+  .menu li:hover {
+    background-color: rgb(46, 46, 46);
+  }
+
   .motto p {
     font-family: cursive;
   }
@@ -578,7 +582,19 @@
   .capitolo1 {
     display: flex;
     flex-flow: row;
-    padding: 30px;
+    padding-top: 30px;
+  }
+
+  .divider {
+    display: inline-block;
+    border: 0;
+    font-size: 0;
+    line-height: 0;
+    height: 3px;
+    max-width: 150px;
+    width: 100%;
+    background-color: #dbccb5;
+    margin-bottom: 30px;
   }
 
   .paragrafo2 {
@@ -728,17 +744,44 @@
     padding-top: 25px;
     gap: 10px;
   }
-  .aboutme div {
-    padding: 20px;
+
+  .aboutme .divider {
+    display: inline-block;
+    border: 0;
+    font-size: 0;
+    line-height: 0;
+    height: 3px;
+    max-width: 155px;
+    width: 100%;
+    background-color: #dbccb5;
+    margin-bottom: 20px;
+  }
+
+  .aboutme .paragraph {
+    padding: 25px;
   }
 
   .social {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
     padding: 20px;
-    gap: 20px;
+    gap: 10px;
+  }
+
+  .social .divider {
+    display: inline-block;
+    border: 0;
+    font-size: 0;
+    line-height: 0;
+    height: 3px;
+    max-width: 155px;
+    width: 100%;
+    background-color: #dbccb5;
   }
 
   .boxsocial {
-    padding-top: 30px;
+    padding-top: 10px;
     gap: 20px;
   }
 }

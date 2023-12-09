@@ -173,6 +173,15 @@
     overflow: hidden;
   }
 
+  .containerservizi-scroller {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .containerservizi {
     display: flex;
     flex-flow: row;
@@ -536,19 +545,25 @@
     padding: 10px;
   }
 
-  .containerservizi {
+  .containerservizi-scroller {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
     display: flex;
     flex-flow: column;
+    justify-content: center;
+  }
+
+  .containerservizi {
+    display: flex;
+    width: fit-content;
+    height: 240px;
     gap: 30px;
-    overflow-x: scroll;
   }
 
   .servizio1 {
-    display: flex;
-    flex-flow: column;
     width: 320px;
-    height: 200px;
-    overflow-x: scroll;
+    height: 220px;
   }
 
   .partesopra {

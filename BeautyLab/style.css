@@ -630,7 +630,6 @@
   .maincontainer {
     display: flex;
     flex-flow: column;
-    align-items: center;
     gap: 10px;
     background-color: #fcf1ef;
     border-bottom-left-radius: 16px;
@@ -642,13 +641,14 @@
     margin: 20px;
     overflow-x: auto;
     overflow-y: hidden;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .containerservizi {
     display: flex;
     width: fit-content;
     align-items: center;
-    justify-content: center;
     height: 220px;
     gap: 30px;
   }
@@ -846,9 +846,15 @@
   .services {
     display: flex;
     flex-flow: column;
-    justify-content: center;
-    align-items: center;
     padding-top: 25px;
+  }
+
+  .services .contatti {
+    align-self: center;
+  }
+
+  .services h3 {
+    align-self: center;
   }
 
   .services .divider {
@@ -862,6 +868,7 @@
     background-color: #dbccb5;
     margin-bottom: 20px;
     margin-top: 10px;
+    align-self: center;
   }
 
   .aboutme {

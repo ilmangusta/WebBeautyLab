@@ -557,7 +557,7 @@
   .containerservizi {
     display: flex;
     width: fit-content;
-    height: 240px;
+    height: 340px;
     gap: 30px;
   }
 
@@ -567,7 +567,7 @@
   }
 
   .partesopra {
-    height: 150px;
+    height: 250px;
     background-color: black;
   }
 

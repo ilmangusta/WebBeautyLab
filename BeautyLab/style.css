@@ -639,18 +639,17 @@
   }
 
   .containerservizi-scroller {
-    width: 100%;
-    overflow-x: scroll;
+    margin: 20px;
+    overflow-x: auto;
     overflow-y: hidden;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
   }
 
   .containerservizi {
     display: flex;
     width: fit-content;
-    height: 340px;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
     gap: 30px;
   }
 
@@ -660,7 +659,7 @@
   }
 
   .partesopra {
-    height: 250px;
+    height: 150px;
     background-color: black;
   }
 
@@ -842,6 +841,27 @@
   .whatsapp div {
     display: flex;
     align-items: center;
+  }
+
+  .services {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+  }
+
+  .services .divider {
+    display: inline-block;
+    border: 0;
+    font-size: 0;
+    line-height: 0;
+    height: 3px;
+    max-width: 155px;
+    width: 100%;
+    background-color: #dbccb5;
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
 
   .aboutme {

@@ -742,7 +742,6 @@
     justify-content: center;
     align-items: center;
     padding-top: 25px;
-    gap: 10px;
   }
 
   .aboutme .divider {
@@ -755,6 +754,7 @@
     width: 100%;
     background-color: #dbccb5;
     margin-bottom: 20px;
+    margin-top: 10px;
   }
 
   .aboutme .paragraph {
@@ -764,13 +764,14 @@
   .social {
     display: flex;
     flex-flow: column;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
-    gap: 10px;
   }
 
   .social .divider {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 0;
     font-size: 0;
     line-height: 0;
@@ -778,10 +779,25 @@
     max-width: 155px;
     width: 100%;
     background-color: #dbccb5;
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
 
   .boxsocial {
-    padding-top: 10px;
-    gap: 20px;
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 40px;
+  }
+
+  .contatti {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 4px;
+    font-size: 15px;
+    color: #595959;
+  }
+  .contatti p {
+    text-align: left;
   }
 }

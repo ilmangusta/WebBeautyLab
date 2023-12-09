@@ -792,10 +792,10 @@
   .contatti {
     display: flex;
     flex-flow: column;
-    justify-content: center;
     gap: 4px;
     font-size: 15px;
     color: #595959;
+    margin-bottom: 15px;
   }
   .contatti p {
     text-align: left;

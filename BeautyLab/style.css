@@ -630,8 +630,7 @@
     overflow-x: hidden;
     border-radius: 16px;
     margin-top: 10px;
-    margin-bottom: 65px;
-    padding-bottom: 30px;
+    margin-bottom: 70px;
     background-color: #fcf1ef;
   }
 
@@ -958,6 +957,7 @@
     background-color: black;
     padding: 15px;
     margin: 10px;
+    margin-bottom: 30px;
     border-radius: 12px;
     box-shadow: 10px 10px 30px #595959;
   }

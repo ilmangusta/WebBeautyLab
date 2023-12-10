@@ -223,11 +223,16 @@
     width: 100%;
   }
 
+  .blocco2 img:hover {
+    transform: translate(-10%, -10%);
+    transition: all 0.5s ease-in-out;
+    box-shadow: 20px 20px 30px #595959;
+  }
+
   .blocco2 img {
     max-width: 500px;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: 20px 20px 30px #595959;
   }
 
   .blocco3 {
@@ -242,10 +247,12 @@
     max-width: 500px;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: -30px 30px 30px #595959;
   }
 
-  .immagine {
+  .blocco3 img:hover {
+    transform: translate(+10%, -10%);
+    transition: all 0.5s ease-in-out;
+    box-shadow: -25px 25px 30px #595959;
   }
 
   .paragrafo2 {

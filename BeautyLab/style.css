@@ -682,7 +682,7 @@
   .containerservizi-scroller {
     display: flex;
     align-self: normal;
-    margin: 30px;
+    margin: 10px;
     overflow-x: auto;
     overflow-y: hidden;
     flex-direction: column;
@@ -692,22 +692,38 @@
     display: flex;
     width: fit-content;
     align-items: center;
-    height: 220px;
+    height: 500px;
     gap: 30px;
   }
 
   .servizio1 {
-    width: 320px;
-    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    gap: 20px;
   }
 
   .partesopra {
-    height: 150px;
+    width: 300px;
+    height: 350px;
     background-color: black;
   }
 
+  .partesopra img {
+    object-fit: cover;
+    width: 300px;
+    height: 350px;
+    border-radius: 6px;
+  }
+
   .partesotto {
-    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 300px;
     background-color: red;
   }
 

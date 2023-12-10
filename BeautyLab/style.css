@@ -743,14 +743,13 @@
   }
 
   .copertina {
-    padding-top: 10px;
     display: flex;
-    width: 100vw;
+    padding-top: 10px;
   }
 
   .copertina img {
-    width: 100vw;
     object-fit: cover;
+    width: 100%;
   }
 
   .capitolo1 {
@@ -986,7 +985,7 @@
   }
 
   .aboutme .paragraph {
-    padding: 25px;
+    padding: 20px;
   }
 
   .social {

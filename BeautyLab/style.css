@@ -682,17 +682,17 @@
   .containerservizi-scroller {
     display: flex;
     align-self: normal;
-    margin: 10px;
     overflow-x: auto;
     overflow-y: hidden;
-    flex-direction: column;
   }
 
   .containerservizi {
+    padding-left: 20px;
+    padding-bottom: 20px;
     display: flex;
     width: fit-content;
     align-items: center;
-    height: 500px;
+    height: 440px;
     gap: 30px;
   }
 

@@ -81,6 +81,7 @@
 
   .wide {
     transform: translateX(+75%);
+    box-shadow: -20px 0px 40px #595959;
   }
 
   .changecolorbutton {
@@ -88,6 +89,7 @@
   }
 
   .menu ul {
+    margin: 30px;
     list-style: none;
   }
 
@@ -197,10 +199,9 @@
 
   .copertina {
     display: flex;
-    padding-top: 20px;
     max-height: 600px;
     width: 100%;
-    box-shadow: 30px 3px 3px 3px rgba(0, 0, 1, 0.067);
+    box-shadow: 20px 0px 40px #595959;
   }
 
   .copertina img {
@@ -234,6 +235,7 @@
     object-fit: cover;
     box-shadow: 10px #59595986;
     border-radius: 8px;
+    box-shadow: 20px 20px 30px #595959;
   }
 
   .dividerhome {
@@ -262,7 +264,8 @@
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 40px;
-    border-radius: 4px;
+    border-radius: 8px;
+    box-shadow: 20px 20px 20px #595959;
   }
 
   .capitolo4 .subscribe {

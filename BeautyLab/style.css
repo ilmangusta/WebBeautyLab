@@ -20,7 +20,7 @@
     overflow-y: auto;
     border-radius: 12px;
     background-color: #fcf1ef;
-    z-index: 10;
+    z-index: 5;
     padding-top: 10px;
   }
 
@@ -393,7 +393,7 @@
   .partesopra {
     width: 400px;
     height: 450px;
-    background-color: #595959;
+    /*background-color: #595959;*/
   }
 
   .partesopra img {
@@ -403,9 +403,11 @@
     border-radius: 8px;
   }
 
-  .partesopra:hover {
+  .partesopra img:hover {
+    z-index: 10;
+    transform: translate(70%, -14%);
     transition: 0.5s;
-    transform: scale(1.2);
+    box-shadow: -25px 25px 30px #595959;
   }
 
   .partesotto {

@@ -179,6 +179,22 @@
     text-decoration: none;
   }
 
+  .maincontainerhome {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 50px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+
+  .maincontainerhome a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+  }
+
   .copertina {
     display: flex;
     padding-top: 50px;
@@ -459,7 +475,7 @@
     display: flex;
     flex-direction: row;
     gap: 40px;
-    padding-top: 20px;
+    padding: 40px;
   }
 
   .orari {
@@ -489,6 +505,11 @@
   }
   .contatti p {
     text-align: center;
+  }
+
+  .contatti .uno {
+    font-size: 24px;
+    align-self: center;
   }
 }
 
@@ -656,16 +677,6 @@
     gap: 20px;
   }
 
-  .maincontainer {
-    display: flex;
-    flex-flow: column;
-    gap: 10px;
-    background-color: #fcf1ef;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    padding: 10px;
-  }
-
   .containerservizi-scroller {
     margin: 20px;
     overflow-x: auto;
@@ -697,7 +708,34 @@
     background-color: red;
   }
 
+  .maincontainer {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    background-color: #fcf1ef;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 10px;
+  }
+
   .maincontainer a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .maincontainerhome {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    background-color: #fcf1ef;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 10px;
+  }
+
+  .maincontainerhome a {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     color: black;
@@ -733,26 +771,51 @@
     margin-bottom: 30px;
   }
 
-  .paragrafo2 {
+  .capitolo2 {
     display: flex;
     flex-flow: column;
-    padding: 10px;
+    align-items: center;
+    justify-content: center;
   }
 
-  .capitolo3 {
-    display: flex;
-    flex-flow: row;
-    padding-bottom: 20px;
-  }
   .blocco2 {
     display: flex;
     flex-flow: column;
-    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .paragrafo2 {
+    display: flex;
+    flex-flow: column;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .paragrafo2 p {
+    font-size: 17px;
+  }
+
+  .immagine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .blocco2 img {
-    max-width: 100%;
-    object-fit: cover;
+    width: 80%;
+    border-radius: 4px;
+  }
+
+  .dividerhome {
+    display: flex;
+    flex-flow: row;
+    height: 5px;
+    max-width: 400px;
+    background-color: #dbccb5;
+    margin: 20px;
+    border-radius: 8px;
   }
 
   .blocco3 {
@@ -786,10 +849,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 10px;
   }
 
   .subscribe p {
-    text-align: left;
+    text-align: center;
     align-items: center;
     justify-content: center;
   }
@@ -953,15 +1017,44 @@
     padding-bottom: 40px;
   }
 
-  .contatti {
+  .infofinali {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .orari {
     display: flex;
     flex-flow: column;
+    justify-content: left;
     gap: 4px;
     font-size: 15px;
     color: #595959;
     margin-bottom: 15px;
   }
+
+  .orari p {
+    font-size: 20px;
+  }
+
+  .contatti {
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+    gap: 4px;
+    font-size: 15px;
+    color: #595959;
+    margin-bottom: 15px;
+  }
+
   .contatti p {
     text-align: left;
+  }
+
+  .contatti .uno {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
   }
 }

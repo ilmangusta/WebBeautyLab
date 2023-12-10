@@ -37,6 +37,12 @@
     z-index: 6;
   }
 
+  .tendina:hover {
+    transform: scale(
+      1.2
+    ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
   .icon-menu1 {
     display: block;
     height: 4px;
@@ -217,6 +223,31 @@
     width: 100%;
   }
 
+  .blocco2 img {
+    max-width: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px #595959;
+  }
+
+  .blocco3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+  }
+
+  .blocco3 img {
+    max-width: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px #595959;
+  }
+
+  .immagine {
+  }
+
   .paragrafo2 {
     display: flex;
     flex-direction: column;
@@ -228,14 +259,6 @@
   .paragrafo2 p {
     justify-self: end;
     font-size: 20px;
-  }
-
-  .blocco2 img {
-    max-width: 500px;
-    object-fit: cover;
-    box-shadow: 10px #59595986;
-    border-radius: 8px;
-    box-shadow: 20px 20px 30px #595959;
   }
 
   .dividerhome {
@@ -318,14 +341,6 @@
     align-self: center;
   }
 
-  .services .divider {
-    align-self: center;
-  }
-
-  .services .dividerfondo {
-    align-self: center;
-  }
-
   /*
   .containerservizi-scroller {
     padding-top: 20px;
@@ -345,16 +360,17 @@
     display: flex;
     flex-flow: row;
     overflow-x: scroll;
-    margin: 50px;
+    margin-bottom: 30px;
   }
 
   .containerservizi {
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding-left: 50px;
     display: flex;
     flex-flow: row;
     width: fit-content;
-    height: 540px;
+    justify-content: center;
+    align-items: center;
+    height: 630px;
     gap: 30px;
   }
 
@@ -365,20 +381,24 @@
     width: 400px;
     height: 500px;
     gap: 20px;
-    margin-bottom: 40px;
   }
 
   .partesopra {
     width: 400px;
     height: 450px;
-    background-color: black;
+    background-color: #595959;
   }
 
   .partesopra img {
     object-fit: cover;
     width: 400px;
     height: 450px;
-    border-radius: 6px;
+    border-radius: 8px;
+  }
+
+  .partesopra:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
   }
 
   .partesotto {
@@ -392,9 +412,6 @@
 
   .services .divider {
     display: inline-block;
-    border: 0;
-    font-size: 0;
-    line-height: 0;
     height: 4px;
     max-width: 250px;
     width: 100%;
@@ -402,13 +419,11 @@
     border-radius: 12px;
     margin-bottom: 20px;
     margin-top: 10px;
+    align-self: center;
   }
 
   .services .dividerfondo {
     display: inline-block;
-    border: 0;
-    font-size: 0;
-    line-height: 0;
     height: 4px;
     max-width: 650px;
     width: 100%;
@@ -416,6 +431,7 @@
     border-radius: 12px;
     margin-bottom: 20px;
     margin-top: 10px;
+    align-self: center;
   }
 
   .aboutme {

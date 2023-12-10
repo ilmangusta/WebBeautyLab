@@ -895,14 +895,37 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
   }
 
   .blocco2 {
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .blocco2 img {
+    width: 80%;
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px #f8a5a5;
+    box-shadow: 10px 10px 20px #595959;
+  }
+
+  .blocco3 {
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
+  }
+
+  .blocco3 img {
+    width: 80%;
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px #f8a5a5;
+    box-shadow: 10px 10px 20px #595959;
   }
 
   .paragrafo2 {
@@ -920,13 +943,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .blocco2 img {
-    width: 80%;
-    border-radius: 6px;
-    box-shadow: 10px 10px 10px #f8a5a5;
-    box-shadow: 10px 10px 20px #595959;
   }
 
   .dividerhome {

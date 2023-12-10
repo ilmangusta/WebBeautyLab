@@ -168,7 +168,6 @@
   .maincontainer {
     display: flex;
     flex-flow: column;
-    align-items: center;
     gap: 50px;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
@@ -308,9 +307,25 @@
     padding-top: 40px;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
+  .services h2 {
+    text-align: center;
+  }
+
+  .services .infofinali {
+    align-self: center;
+  }
+
+  .services .divider {
+    align-self: center;
+  }
+
+  .services .dividerfondo {
+    align-self: center;
+  }
+
+  /*
   .containerservizi-scroller {
     padding-top: 20px;
     width: 100%;
@@ -322,6 +337,23 @@
   .containerservizi {
     display: flex;
     flex-flow: column;
+    gap: 30px;
+  }*/
+
+  .containerservizi-scroller {
+    display: flex;
+    flex-flow: row;
+    overflow-x: scroll;
+    margin: 50px;
+  }
+
+  .containerservizi {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-flow: row;
+    width: fit-content;
+    height: 540px;
     gap: 30px;
   }
 
@@ -426,7 +458,7 @@
   }
 
   .social {
-    padding-top: 30px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;

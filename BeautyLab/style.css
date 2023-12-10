@@ -1212,4 +1212,8 @@
     font-weight: bold;
     font-size: 18px;
   }
+
+  .body a {
+    font-family: cursive;
+  }
 }

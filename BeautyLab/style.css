@@ -863,6 +863,7 @@
     margin-bottom: 10px;
     width: 100%;
     box-shadow: 0 0 10px 5px rgb(242, 168, 168);
+    box-shadow: 0 0 20px #595959;
   }
 
   .copertina img {
@@ -925,6 +926,7 @@
     width: 80%;
     border-radius: 6px;
     box-shadow: 10px 10px 10px #f8a5a5;
+    box-shadow: 10px 10px 20px #595959;
   }
 
   .dividerhome {
@@ -936,17 +938,6 @@
     margin: 20px;
     border-radius: 8px;
     align-self: normal;
-  }
-
-  .blocco3 {
-    display: flex;
-    flex-flow: column;
-    gap: 30px;
-  }
-
-  .blocco3 img {
-    max-width: 100%;
-    object-fit: cover;
   }
 
   .capitolo4 {

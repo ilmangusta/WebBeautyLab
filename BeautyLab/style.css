@@ -766,7 +766,7 @@
     margin-top: 20px;
     max-height: 600px;
     width: 100%;
-    box-shadow: 0 0 50px 8px rgb(242, 168, 168);
+    box-shadow: 0 0 20px 5px rgb(242, 168, 168);
   }
 
   .copertina img {
@@ -827,7 +827,7 @@
   .blocco2 img {
     width: 80%;
     border-radius: 8px;
-    box-shadow: 6px 6px 30px #f8a5a5;
+    box-shadow: 10px 10px 10px #f8a5a5;
   }
 
   .dividerhome {

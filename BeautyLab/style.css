@@ -227,7 +227,7 @@
     max-width: 500px;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: 10px 10px 20px #595959;
+    box-shadow: 20px 20px 30px #595959;
   }
 
   .blocco3 {
@@ -242,7 +242,7 @@
     max-width: 500px;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: 10px 10px 20px #595959;
+    box-shadow: -30px 30px 30px #595959;
   }
 
   .immagine {

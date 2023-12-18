@@ -349,6 +349,13 @@
     padding: 4px;
   }
 
+  .btn-subscribe a {
+    color: white;
+    text-decoration: none;
+    font-family: corsivo;
+    font-size: 14px;
+  }
+
   .services {
     padding-top: 40px;
     display: flex;
@@ -1066,6 +1073,13 @@
     color: white;
     border: 1px solid white;
     padding: 10px;
+  }
+
+  .btn-subscribe a {
+    color: white;
+    text-decoration: none;
+    font-family: corsivo;
+    font-size: 14px;
   }
 
   .facebook {

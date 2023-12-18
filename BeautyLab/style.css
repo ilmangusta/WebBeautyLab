@@ -160,8 +160,12 @@
     display: flex;
   }
 
+  .title h1 {
+    font-size: 60px;
+  }
+
   .motto {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .linknavbar {
@@ -222,17 +226,18 @@
     gap: 60px;
     width: 100%;
   }
-
+  /*
   .blocco2 img:hover {
     transform: translate(-10%, -10%);
     transition: all 0.5s ease-in-out;
     box-shadow: 20px 20px 30px #595959;
-  }
+  }*/
 
   .blocco2 img {
     max-width: 500px;
     object-fit: cover;
     border-radius: 8px;
+    box-shadow: 12px 12px 16px #595959;
   }
 
   .blocco3 {
@@ -247,13 +252,15 @@
     max-width: 500px;
     object-fit: cover;
     border-radius: 8px;
+    box-shadow: 12px 12px 14px #595959;
   }
 
+  /*
   .blocco3 img:hover {
     transform: translate(+10%, -10%);
     transition: all 0.5s ease-in-out;
     box-shadow: -25px 25px 30px #595959;
-  }
+  } */
 
   .paragrafo2 {
     display: flex;
@@ -266,6 +273,14 @@
   .paragrafo2 p {
     justify-self: end;
     font-size: 20px;
+    color: #595959;
+  }
+
+  .paragrafo2 a {
+    justify-self: end;
+    font-size: 20px;
+    font-family: corsive;
+    color: #595959;
   }
 
   .dividerhome {
@@ -403,12 +418,13 @@
     border-radius: 8px;
   }
 
+  /*
   .partesopra img:hover {
     z-index: 10;
     transform: translate(70%, -14%);
     transition: 0.5s;
     box-shadow: -25px 25px 30px #595959;
-  }
+  }*/
 
   .partesotto {
     display: flex;
@@ -967,9 +983,17 @@
   }
 
   .paragrafo2 p {
+    justify-self: end;
     font-size: 17px;
+    color: #595959;
   }
 
+  .paragrafo2 a {
+    justify-self: end;
+    font-size: 17px;
+    font-family: corsive;
+    color: #595959;
+  }
   .immagine {
     display: flex;
     align-items: center;
@@ -1229,7 +1253,7 @@
   .orari {
     display: flex;
     flex-flow: column;
-    justify-content: left;
+    justify-content: start;
     gap: 4px;
     font-size: 15px;
     color: #595959;

@@ -1,8 +1,8 @@
 function ready() {
   var tendina = document.querySelector(".tendina");
-  var icon1 = document.querySelector(".icon-menu1");
-  var icon2 = document.querySelector(".icon-menu2");
-  var icon3 = document.querySelector(".icon-menu3");
+  var icon1 = document.querySelector(".icon-menu");
+  var icon2 = document.querySelector(".icon-menu");
+  var icon3 = document.querySelector(".icon-menu");
 
   tendina.addEventListener(
     "click",
@@ -21,6 +21,16 @@ function ready() {
     "click",
     () => {
       const newUrl = "https://beautylabvalentina.netlify.app";
+      window.location.replace(newUrl);
+    },
+    true
+  );
+
+  var whatsapp = document.querySelector(".whatsapp");
+  whatsapp.addEventListener(
+    "click",
+    () => {
+      const newUrl = "https://wa.me/+393288448224";
       window.location.replace(newUrl);
     },
     true

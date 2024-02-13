@@ -184,7 +184,6 @@
   }
 
   .maincontainer a {
-    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     color: black;
     text-decoration: none;
@@ -690,7 +689,7 @@
     background-color: #fcf1ef;
   }
 
-  .navbar2 {
+  .navbar {
     display: flex;
     position: fixed;
     width: 95%;
@@ -704,7 +703,7 @@
     flex-flow: row;
     width: 100%;
     justify-content: space-between;
-    background-color: #ffd3cc;
+    background-color: #fceeeb;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     padding-left: 40px;
@@ -712,7 +711,7 @@
   }
 
   .titlecontainer {
-    padding-top: 200px;
+    padding-top: 130px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -733,10 +732,10 @@
     z-index: 2;
   }
 
-  .icon-menu1 {
+  .icon-menu {
     display: block;
-    height: 3px;
-    width: 20px;
+    height: 4px;
+    width: 30px;
     background: black;
     margin-bottom: 3px;
     border-radius: 8px;
@@ -927,7 +926,6 @@
   }
 
   .maincontainerhome a {
-    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     color: black;
     text-decoration: none;
@@ -937,7 +935,7 @@
     display: flex;
     margin-top: 20px;
     max-height: 600px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     width: 100%;
     /*box-shadow: 0 0 10px 5px rgb(242, 168, 168);
     box-shadow: 0 0 20px #595959;*/
@@ -1010,16 +1008,15 @@
     flex-flow: column;
     padding-left: 40px;
     padding-right: 40px;
+    text-align: center;
   }
 
   .paragrafo2 p {
-    justify-self: end;
     font-size: 17px;
     color: #595959;
   }
 
   .paragrafo2 a {
-    justify-self: end;
     font-size: 17px;
     font-family: corsive;
     color: #595959;
@@ -1030,13 +1027,18 @@
     justify-content: center;
   }
 
+  .div-divider {
+    display: flex;
+    flex-flow: row;
+    align-self: center;
+  }
+
   .dividerhome {
     display: flex;
     flex-flow: row;
     height: 5px;
-    max-width: 400px;
+    width: 300px;
     background-color: #dbccb5;
-    margin: 20px;
     border-radius: 8px;
     align-self: normal;
   }
@@ -1308,13 +1310,14 @@
     align-items: center;
     flex-flow: column;
     gap: 4px;
+    justify-content: start;
+
     font-size: 15px;
     color: #595959;
     margin-bottom: 15px;
   }
 
   .contatti p {
-    text-align: left;
     font-size: 20px;
   }
   .contatti a {

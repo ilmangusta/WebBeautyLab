@@ -673,7 +673,8 @@
   body {
     height: 100dvh;
     font-family: corsivo;
-    font-size: 22px;
+    font-size: 19.5px;
+    font-weight: 300;
     background-color: black;
     padding: 10px;
     overflow: hidden;
@@ -703,6 +704,7 @@
     flex-flow: row;
     width: 100%;
     justify-content: space-between;
+    /*background-color: #fceeeb;*/
     background-color: #fceeeb;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
@@ -821,10 +823,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
   }
 
   .logo img {
-    width: 120px;
+    width: 100px;
   }
 
   .titlemotto {
@@ -905,7 +908,6 @@
     background-color: #fcf1ef;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
-    padding-top: 30px;
   }
 
   .maincontainer a {
@@ -961,7 +963,6 @@
     max-width: 150px;
     width: 100%;
     background-color: #dbccb5;
-    margin-bottom: 30px;
   }
 
   .capitolo2 {
@@ -1151,7 +1152,7 @@
   }
 
   .whatsapp img {
-    width: 60px;
+    width: 40px;
     object-fit: contain;
     border-radius: 16px;
   }
@@ -1159,6 +1160,42 @@
   .whatsapp div {
     display: flex;
     align-items: center;
+  }
+
+  .divider {
+    display: inline-block;
+    height: 4px;
+    width: 100%;
+    background-color: #dbccb5;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    align-self: center;
+  }
+
+  .aboutme {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .aboutme p {
+    text-align: center;
+  }
+
+  .aboutme .divider {
+    display: inline-block;
+    border: 0;
+    font-size: 0;
+    line-height: 0;
+    height: 3px;
+    max-width: 190px;
+    width: 100%;
+    background-color: #dbccb5;
+    margin-top: 10px;
   }
 
   .services {
@@ -1180,7 +1217,6 @@
   .services .divider {
     display: inline-block;
     height: 4px;
-    max-width: 155px;
     width: 100%;
     background-color: #dbccb5;
     border-radius: 12px;
@@ -1189,57 +1225,32 @@
     align-self: center;
   }
 
-  .services .dividerfondo {
-    display: inline-block;
-    border: 0;
-    font-size: 0;
-    line-height: 0;
-    height: 4px;
-    max-width: 250px;
-    width: 100%;
-    background-color: #dbccb5;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-  }
-
-  .aboutme {
+  .gallery {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    padding-top: 25px;
-  }
-
-  .aboutme .divider {
-    display: inline-block;
-    border: 0;
-    font-size: 0;
-    line-height: 0;
-    height: 3px;
-    max-width: 190px;
-    width: 100%;
-    background-color: #dbccb5;
-    margin-bottom: 20px;
-    margin-top: 10px;
-  }
-
-  .aboutme .dividerfondo {
-    display: inline-block;
-    border: 0;
-    font-size: 0;
-    line-height: 0;
-    height: 4px;
-    max-width: 250px;
-    width: 100%;
-    background-color: #dbccb5;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-  }
-
-  .aboutme .paragraph {
     padding: 20px;
+  }
+
+  .gallery p {
+    text-align: center;
+  }
+
+  .div-gallery {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 0px 0px;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .galleryimages img {
+    background-size: cover;
+    width: 100%;
+    background-position: center;
   }
 
   .social {
@@ -1264,20 +1275,6 @@
     margin-top: 10px;
   }
 
-  .social .dividerfondo {
-    display: inline-block;
-    border: 0;
-    font-size: 0;
-    line-height: 0;
-    height: 4px;
-    max-width: 250px;
-    width: 100%;
-    background-color: #dbccb5;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-  }
-
   .boxsocial {
     display: flex;
     flex-flow: column;
@@ -1298,13 +1295,12 @@
     justify-content: start;
     align-items: center;
     gap: 4px;
-    font-size: 15px;
     color: #595959;
     margin-bottom: 15px;
   }
 
   .orari p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .contatti {

@@ -686,15 +686,17 @@
     overflow-x: hidden;
     border-radius: 16px;
     margin-top: 10px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
     background-color: #fcf1ef;
   }
 
   .navbar2 {
     display: flex;
     position: fixed;
-    background-color: #ffd3cc;
-    width: 100%;
+    width: 95%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    box-shadow: 0px 10px 30px #888888;
   }
 
   .navbar-container {
@@ -702,8 +704,11 @@
     flex-flow: row;
     width: 100%;
     justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
+    background-color: #ffd3cc;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .titlecontainer {

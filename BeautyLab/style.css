@@ -1335,17 +1335,11 @@
     flex-flow: column;
     gap: 4px;
     justify-content: start;
-
-    font-size: 15px;
     color: #595959;
     margin-bottom: 15px;
   }
 
-  .contatti p {
-    font-size: 20px;
-  }
   .contatti a {
-    font-size: 20px;
     text-decoration: none;
     font-family: corsive;
     color: #595959;

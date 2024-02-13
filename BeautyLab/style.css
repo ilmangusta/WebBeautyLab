@@ -1242,7 +1242,7 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 15px 0px;
     gap: 20px;
     width: 100%;
   }
@@ -1251,6 +1251,11 @@
     background-size: cover;
     width: 100%;
     background-position: center;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .galleryimages :hover {
   }
 
   .social {
@@ -1279,8 +1284,29 @@
     display: flex;
     flex-flow: column;
     padding-bottom: 40px;
+    align-items: center;
+    gap: 15px;
   }
 
+  .boxsocial p {
+    text-align: center;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .info img {
+    width: 20px;
+    object-fit: contain;
+    border-radius: 16px;
+  }
+
+  .mappa {
+    align-self: center;
+    margin: 50px;
+  }
   .infofinali {
     display: flex;
     flex-direction: column;

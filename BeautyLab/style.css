@@ -1292,6 +1292,10 @@
     text-align: center;
   }
 
+  .boxsocial span {
+    color: #54595f;
+  }
+
   .info {
     display: flex;
     flex-direction: row;

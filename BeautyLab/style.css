@@ -695,7 +695,7 @@
     width: 95%;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
-    box-shadow: 0px 10px 30px #888888;
+    box-shadow: 0px 1px 10px #888888;
   }
 
   .navbar-container {
@@ -711,7 +711,7 @@
   }
 
   .titlecontainer {
-    padding-top: 130px;
+    padding-top: 145px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -973,6 +973,10 @@
     margin-bottom: 20px;
   }
 
+  .capitolo2 a {
+    color: #a4706e;
+  }
+
   .blocco2 {
     display: flex;
     flex-flow: column-reverse;
@@ -1013,13 +1017,11 @@
 
   .paragrafo2 p {
     font-size: 17px;
-    color: #595959;
   }
 
   .paragrafo2 a {
     font-size: 17px;
     font-family: corsive;
-    color: #595959;
   }
   .immagine {
     display: flex;
@@ -1329,5 +1331,25 @@
 
   .body a {
     font-family: cursive;
+  }
+
+  .copyright {
+    color: white;
+    font-size: 15px;
+    font-family: "Montserrat", Sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #a4706e;
+    padding: 30px 20px 30px 20px;
+    gap: 10px;
+    line-height: 25px;
+    text-align: center;
+    font-weight: 300;
+  }
+  .copyright .licence {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-self: center;
   }
 }

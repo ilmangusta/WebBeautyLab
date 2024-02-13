@@ -35,6 +35,26 @@ function ready() {
     },
     true
   );
+
+  var services = document.querySelector(".whatsapp");
+  whatsapp.addEventListener(
+    "click",
+    () => {
+      const newUrl = "https://wa.me/+393288448224";
+      window.location.replace(newUrl);
+    },
+    true
+  );
+
+  var whatsapp = document.querySelector(".whatsapp");
+  whatsapp.addEventListener(
+    "click",
+    () => {
+      const newUrl = "https://wa.me/+393288448224";
+      window.location.replace(newUrl);
+    },
+    true
+  );
 }
 
 ready();

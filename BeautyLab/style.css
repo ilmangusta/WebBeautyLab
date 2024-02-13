@@ -685,8 +685,8 @@
     overflow-y: auto;
     overflow-x: hidden;
     border-radius: 16px;
-    margin-top: 10px;
-    margin-bottom: 80px;
+    margin-top: 0px;
+    margin-bottom: 50px;
     background-color: #fcf1ef;
   }
 

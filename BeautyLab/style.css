@@ -673,7 +673,7 @@
   body {
     height: 100dvh;
     font-family: corsivo;
-    font-size: 19.5px;
+    font-size: 18px;
     font-weight: 300;
     background-color: black;
     padding: 10px;
@@ -1285,7 +1285,7 @@
     flex-flow: column;
     padding-bottom: 40px;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
   }
 
   .boxsocial p {

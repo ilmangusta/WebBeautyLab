@@ -1292,6 +1292,8 @@
     display: flex;
     flex-direction: row;
     gap: 5px;
+    color: #595959;
+    text-decoration: none;
   }
 
   .info img {

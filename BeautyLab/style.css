@@ -1303,6 +1303,7 @@
     align-self: center;
     margin: 30px;
     box-shadow: 5px 5px 10px #595959;
+    border-radius: 8px;
   }
   .infofinali {
     display: flex;

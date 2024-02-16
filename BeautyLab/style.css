@@ -1005,8 +1005,22 @@
   }
 
   .blocco3 img {
-    width: 350px;
-    height: 250px;
+    width: 70%;
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px #f8a5a5;
+    box-shadow: 12px 12px 14px #595959;
+  }
+
+  .blocco4 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .blocco4 img {
+    width: 80%;
     border-radius: 6px;
     box-shadow: 10px 10px 10px #f8a5a5;
     box-shadow: 12px 12px 14px #595959;
@@ -1015,9 +1029,8 @@
   .paragrafo2 {
     display: flex;
     flex-flow: column;
-    padding-left: 40px;
-    padding-right: 40px;
     text-align: center;
+    gap: 0px;
   }
 
   .paragrafo2 p {
@@ -1027,6 +1040,13 @@
   .paragrafo2 a {
     font-size: 17px;
     font-family: corsive;
+  }
+
+  .titoli {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
   }
   .immagine {
     display: flex;

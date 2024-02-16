@@ -713,14 +713,13 @@
   }
 
   .titlecontainer {
-    padding-top: 145px;
+    padding-top: 100px;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
     font-size: 15px;
     background-color: #fcf1ef;
-    padding-left: 15px;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
   }
@@ -827,19 +826,51 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 10px 0px 0px 0px;
   }
 
   .logo img {
-    width: 100px;
+    width: 68%;
+    object-fit: contain;
   }
+
+  .logo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo2 img {
+    width: 40%;
+    object-fit: contain;
+  }
+
+  .whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .whatsapp img {
+    width: 50%;
+    object-fit: contain;
+    border-radius: 16px;
+  }
+
+  /*
+  .whatsapp div {
+    display: flex;
+    align-items: center;
+  }*/
 
   .titlemotto {
     display: flex;
     flex-flow: column;
     align-items: center;
-    gap: 8px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    /*background-image: url("images/negozio/home.png");
+    background-size: cover;*/
   }
 
   .titlemotto h3 {
@@ -944,6 +975,7 @@
     width: 100%;
     /*box-shadow: 0 0 10px 5px rgb(242, 168, 168);
     box-shadow: 0 0 20px #595959;*/
+    box-shadow: 0px 4px 15px #18161661;
   }
 
   .copertina img {
@@ -993,7 +1025,7 @@
     width: 80%;
     border-radius: 6px;
     box-shadow: 10px 10px 10px #f8a5a5;
-    box-shadow: 12px 12px 14px #595959;
+    box-shadow: 8px 8px 15px #18161661;
   }
 
   .blocco3 {
@@ -1008,7 +1040,7 @@
     width: 70%;
     border-radius: 6px;
     box-shadow: 10px 10px 10px #f8a5a5;
-    box-shadow: 12px 12px 14px #595959;
+    box-shadow: 8px 8px 15px #18161661;
   }
 
   .blocco4 {
@@ -1023,7 +1055,7 @@
     width: 80%;
     border-radius: 6px;
     box-shadow: 10px 10px 10px #f8a5a5;
-    box-shadow: 12px 12px 14px #595959;
+    box-shadow: 8px 8px 15px #18161661;
   }
 
   .paragrafo2 {
@@ -1165,23 +1197,6 @@
   }
 
   .ig div {
-    display: flex;
-    align-items: center;
-  }
-
-  .whatsapp {
-    display: flex;
-    flex-flow: row;
-    gap: 10px;
-  }
-
-  .whatsapp img {
-    width: 40px;
-    object-fit: contain;
-    border-radius: 16px;
-  }
-
-  .whatsapp div {
     display: flex;
     align-items: center;
   }

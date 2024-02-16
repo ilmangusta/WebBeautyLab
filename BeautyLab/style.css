@@ -1276,7 +1276,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    gap: 10px;
+    gap: 13px;
   }
 
   .boxsocial p {
@@ -1301,7 +1301,7 @@
 
   .mappa {
     align-self: center;
-    margin: 50px;
+    margin: 30px;
   }
   .infofinali {
     display: flex;

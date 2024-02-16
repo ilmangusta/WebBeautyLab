@@ -1345,8 +1345,13 @@
 
   .body a {
     font-family: cursive;
+    text-decoration: none;
   }
 
+  .body span {
+    font-family: cursive;
+    text-decoration: none;
+  }
   .copyright {
     color: white;
     font-size: 15px;

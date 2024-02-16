@@ -694,6 +694,7 @@
     display: flex;
     position: fixed;
     width: 95%;
+    height: 10%;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     box-shadow: 0px 1px 10px #888888;
@@ -853,7 +854,7 @@
   }
 
   .whatsapp img {
-    width: 50%;
+    width: 40%;
     object-fit: contain;
     border-radius: 16px;
   }

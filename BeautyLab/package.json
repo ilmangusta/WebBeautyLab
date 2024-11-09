@@ -1,0 +1,17 @@
+{
+  "name": "webbeautylab",
+  "version": "1.0.0",
+  "description": "Repository for project of a web app for beautician store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.14.1",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
